@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <!-- IE Compatible Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap Website</title>
+    <link rel='stylesheet' href='css/bootstrap.css'/>
+    <!--<link rel='stylesheet' href='css/bootstrap-arabic.css'/>-->
+    <link rel='stylesheet' href='css/font-awesome.min.css'/>
+    <link rel='stylesheet' href='css/style.css'/>
+    <link rel='stylesheet' href='css/default_theme.css'/>
+    <link rel='stylesheet' href='css/animate.css'>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <!-- Start Tool Box -->
+  <section class="option-box">
+    <div class="color-option">
+      <h4>Color Option</h4>
+      <ul class="list-unstyled">
+        <li data-value="css/default_theme.css"></li>
+        <li data-value="css/blue_theme.css"></li>
+        <li data-value="css/green_theme.css"></li>
+        <li data-value="css/orange_theme.css"></li>
+        <li data-value="css/red_theme.css"></li>
+      </ul>
+    </div>
+    <i class="fa fa-gear fa-3x gear-check"></i>
+  </section>
+
+  <!-- End Tool Box -->
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Shehata <span> Pro </span></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li role="presentation" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Logo Design</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Desktop App</a></li>
+              <li><a href="#">Web App</a></li>
+              <li><a href="#">Mobile App</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Database Administration</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- End Navbar -->
+
+  <!-- Start Carousel -->
+
+  <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/slider/01.jpg" alt="...">
+          <div class="carousel-caption">
+            <h2>Programming</h2>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/slider/02.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            <h2>Web Design</h2>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/slider/03.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            <h2>Hosting</h2>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/slider/04.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            <h2>Administration</h2>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- End Carousel -->
+
+
+    <!-- Start Section About-->
+
+    <section class="about text-center padding-Section animate__animated animate__bounceIn animate__delay-1s animate__slow">
+      <div class="container">
+        <h1 class="h1">Meet Our New Template <span>Shehata Pro.</span></h1>
+        <p class="lead">Hello Let Me Introduction Our Template Shehata Pro. Create With All The Love With <strong>Bootstrap</strong> 3.2.0</p>
+      </div>
+    </section>
+
+    <!-- End Section About-->
+
+
+    <!-- Start Section Featuring -->
+
+    <section class="features text-center padding-Section">
+      <div class="container">
+        <h2 class="h1">Our Features</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="feat hvr-wobble-vertical animate__animated animate__backInLeft animate__delay-1s animate__slow">
+              <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+              <h4>100% Responsive</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, justo congue varius feugiat, turpis nisi interdum libero, at bibendum dolor urna non nulla.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat hvr-wobble-vertical animate__animated animate__backInUp animate__delay-1s animate__slow">
+              <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+              <h4>Retina Ready</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, justo congue varius feugiat, turpis nisi interdum libero, at bibendum dolor urna non nulla.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat hvr-wobble-vertical animate__animated animate__backInDown animate__delay-1s animate__slow">
+              <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+              <h4>Awesome Display</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, justo congue varius feugiat, turpis nisi interdum libero, at bibendum dolor urna non nulla.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="feat hvr-wobble-vertical animate__animated animate__backInRight animate__delay-1s animate__slow">
+              <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+              <h4>Well Documentes</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, justo congue varius feugiat, turpis nisi interdum libero, at bibendum dolor urna non nulla.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End Section Featuring -->
+
+
+    <!-- Start Section Testimonials -->
+
+    <section class="testimonials text-center padding-Section animate__animated animate__fadeIn animate__delay-1s animate__slow">
+      <div class="container">
+        <h2 class="h1">What Our Clients Say</h2>
+
+          <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <q class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur tempus erat eget volutpat. Nunc ultrices hendrerit facilisis. Suspendisse ullamcorper leo eu faucibus malesuada. Curabitur viverra iaculis pulvinar. Fusce sagittis a odio vel tincidunt. Aliquam dignissim lacus a ipsum finibus, a porttitor risus vehicula. Suspendisse id lectus mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</q>
+                <span>Moh Shehata</span>
+              </div>
+              <div class="item">
+                <q class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur tempus erat eget volutpat. Nunc ultrices hendrerit facilisis. Suspendisse ullamcorper leo eu faucibus malesuada. Curabitur viverra iaculis pulvinar. Fusce sagittis a odio vel tincidunt. Aliquam dignissim lacus a ipsum finibus, a porttitor risus vehicula. Suspendisse id lectus mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</q>
+                <span>Maky</span>
+              </div>
+              <div class="item">
+                <q class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur tempus erat eget volutpat. Nunc ultrices hendrerit facilisis. Suspendisse ullamcorper leo eu faucibus malesuada. Curabitur viverra iaculis pulvinar. Fusce sagittis a odio vel tincidunt. Aliquam dignissim lacus a ipsum finibus, a porttitor risus vehicula. Suspendisse id lectus mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</q>
+                <span>Hassan</span>
+              </div>
+              <div class="item">
+                <q class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur tempus erat eget volutpat. Nunc ultrices hendrerit facilisis. Suspendisse ullamcorper leo eu faucibus malesuada. Curabitur viverra iaculis pulvinar. Fusce sagittis a odio vel tincidunt. Aliquam dignissim lacus a ipsum finibus, a porttitor risus vehicula. Suspendisse id lectus mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</q>
+                <span>Ahmed</span>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-testimonials" data-slide-to="0" class="hvr-wobble-vertical active"><img src="images/client/01.png" alt="Moh Shehata"/></li>
+              <li data-target="#carousel-testimonials" data-slide-to="1" class="hvr-wobble-vertical"><img src="images/client/02.png" alt="Maky"/></li>
+              <li data-target="#carousel-testimonials" data-slide-to="2" class="hvr-wobble-vertical"><img src="images/client/03.png" alt="Hassan"/></li>
+              <li data-target="#carousel-testimonials" data-slide-to="3" class="hvr-wobble-vertical"><img src="images/client/04.png" alt="Ahmed"/></li>
+            </ol>
+
+          </div>
+
+      </div>
+    </section>
+
+
+    <!-- End Section Testimonials -->
+
+
+    <!-- Start Section Price -->
+
+    <section class="price text-center padding-Section">
+      <div class="container">
+        <h2 class="h1">Our Amazing Prices</h2>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="plan hvr-bob animate__animated animate__fadeInDown animate__delay-1s animate__slow">
+              <h3 class="text-primary">Hosting</h3>
+              <p class="center-block">40$</p>
+              <ul class="list-unstyled">
+                <li>Space: 30GB</li>
+                <li>Emails: 20</li>
+                <li>Ips: 2 IP</li>
+                <li>Databases 10</li>
+                <li>Ftp Accounts: 5</li>
+              </ul>
+              <a href="#" class="btn btn-primary hvr-grow-shadow">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="plan hvr-bob  animate__animated animate__fadeInUp animate__delay-1s animate__slow">
+              <h3 class="text-success">Vps</h3>
+              <p class="center-block">50$</p>
+              <ul class="list-unstyled">
+                <li>Space: 50GB</li>
+                <li>Emails: 40</li>
+                <li>Ips: 5 IP</li>
+                <li>Databases 20</li>
+                <li>Ftp Accounts: 10</li>
+              </ul>
+              <a href="#" class="btn btn-success hvr-grow-shadow">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="plan hvr-bob  animate__animated animate__fadeInDown animate__delay-1s animate__slow">
+              <h3 class="text-info">Dedicated</h3>
+              <p class="center-block">70$</p>
+              <ul class="list-unstyled">
+                <li>Space: 80GB</li>
+                <li>Emails: 40</li>
+                <li>Ips: 8 IP</li>
+                <li>Databases 30</li>
+                <li>Ftp Accounts: 20</li>
+              </ul>
+              <a href="#" class="btn btn-info hvr-grow-shadow">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="plan hvr-bob  animate__animated animate__fadeInUp animate__delay-1s animate__slow">
+              <h3 class="text-danger">Cloud</h3>
+              <p class="center-block">90$</p>
+              <ul class="list-unstyled">
+                <li>Space: 90GB</li>
+                <li>Emails: 50</li>
+                <li>Ips: 10 IP</li>
+                <li>Databases 50</li>
+                <li>Ftp Accounts: 50</li>
+              </ul>
+              <a href="#" class="btn btn-danger hvr-grow-shadow">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Price -->
+
+
+    <!-- Start Section Our Team -->
+
+    <section class="our-team text-center">
+      <div class="team padding-Section">
+        <div class="container">
+          <h2 class="h1">Meet Our Awesome Team</h2>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="person animate__animated animate__zoomInDown animate__delay-0.5s animate__fast">
+                <img class="img-circle hvr-wobble-vertical" src="images/team/Bill_gates.jpg" alt="Bill gates"/>
+                <h3>Bill gates</h3>
+                <p> is an American business magnate, software developer, investor, and philanthropist. He is best known as the co-founder of Microsoft Corporation.</p>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-youtube fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="person animate__animated animate__zoomInDown animate__delay-0.5s animate__fast">
+                <img class="img-circle hvr-wobble-vertical" src="images/team/steve_Jobs.jpg" alt="steve Jobs"/>
+                <h3>steve Jobs</h3>
+                <p>was an American business magnate, industrial designer, investor, and media proprietor. He was the chairman, chief executive officer, and co-founder of Apple Inc.,</p>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-youtube fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="person animate__animated animate__zoomInDown animate__delay-0.5s animate__fast">
+                <img class="img-circle hvr-wobble-vertical" src="images/team/Hamza_Bendelladj.png" alt="Hamza Bendelladj"/>
+                <h3>Hamza Bendelladj</h3>
+                <p>is an Algerian cyber-criminal and a carder who goes by the code name BX1[3] and has been nicknamed the "Smiling Hacker".</p>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="hvr-grow-shadow" href="#"><i class="fa fa-youtube fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End Section Our Team -->
+
+
+    <!-- Start Section Subscribe -->
+
+    <section class="subscribe text-center padding-Section">
+      <div class="container">
+        <h2 class="h1">Keep In Touch</h2>
+        <p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
+        <form class="form-subscribe form-inline">
+          <input class="form-control input-lg" type="text" placeholder="Enter Your Email">
+          <button class="btn btn-danger input-lg"><i class="fa fa-inbox fa-lg"></i> Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- End Section Subscribe -->
+
+
+    <!-- Start Section Statistics -->
+
+    <section class="statistics text-center">
+      <div class="statistic padding-Section">
+        <div class="container">
+          <h2 class="h1">Our Main Statistics</h2>
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="stat">
+                <i class="fa fa-users fa-5x"></i>
+                <p>9,950</p>
+                <span>Satisfied Users</span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="stat">
+                <i class="fa fa-comments fa-5x"></i>
+                <p>25,600</p>
+                <span>Posted Comments</span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="stat">
+                <i class="fa fa-suitcase fa-5x"></i>
+                <p>3,260</p>
+                <span>Projects Done</span>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="stat">
+                <i class="fa fa-support fa-5x"></i>
+                <p>95,350</p>
+                <span>Tickets Archieved</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- End Section Statistics -->
+
+
+    <!-- Start Section Skills -->
+
+    <section class="skills padding-Section">
+      <div class="container">
+        <h2 class="h1 text-center">Our Skills</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="skills-progress">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">HTML5 / CSS3</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">PHP / MySQL</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">Javascript / jquery</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">HTML5 / CSS3</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-1">
+            <h3>About The Team</h3>
+            <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
+            <button type="button" class="btn btn-primary  hvr-bob">Talk With A Professional</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Skills -->
+
+    <!-- Start Section Contact-us -->
+
+    <section class="contact-us text-center">
+      <div class="fields padding-Section">
+        <div class="container">
+          <i class="fa fa-headphones fa-5x"></i>
+          <h2 class="h1">Tell Us What You Fell</h2>
+          <p class="lead">Feel Free To Contact Us Anytime</p>
+          <form>
+            <div class="row">
+              <div class="col-md-6 animate__animated animate__fadeInLeft animate__delay-0.5s animate__fast">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                </div>
+              </div>
+              <div class="col-md-6 animate__animated animate__fadeInRight animate__delay-0.5s animate__fast">
+                <div class="form-group">
+                  <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="button" class="btn btn-danger btn-block btn-lg  hvr-bob">Contact Us</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Contact-us -->
+
+    <!-- Start Section Client -->
+
+    <div class="clients padding-Section">
+      <div class="container">
+        <div class="row">
+          <ul class="list-unstyled">
+            <li class="col-md-2 col-xs-4"><img class="img-responsive center-block  animate__animated animate__bounceIn animate__delay-1s animate__fast" src="images/Company/dell.png" alt="DELL"></li>
+            <li class="col-md-2 col-xs-4"><img class="img-responsive center-block  animate__animated animate__bounceIn animate__delay-2s animate__fast" src="images/Company/intel.png" alt="Intel"></li>
+            <li class="col-md-2 col-xs-4"><img class="img-responsive center-block  animate__animated animate__bounceIn animate__delay-3s animate__fast" src="images/Company/Samsung.png" alt="SAMSUNG"></li>
+            <li class="col-md-2 col-xs-4"><img class="img-responsive center-block  animate__animated animate__bounceIn animate__delay-4s animate__fast" src="images/Company/sony.png" alt="Sony"></li>
+            <li class="col-md-2 col-xs-4"><img class="img-responsive center-block  animate__animated animate__bounceIn animate__delay-5s animate__fast" src="images/Company/toshiba.png" alt="Toshiba"></li>
+            <li class="col-md-2 col-xs-4"><img class="img-responsive center-block  animate__animated animate__bounceIn animate__delay-5s animate__fast" src="images/Company/hp.png" alt="HP"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Section Client -->
+
+    <!-- Start Section Footer -->
+
+    <section class="footer">
+      <div class="container padding-Section">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <h3>Sitemap</h3>
+            <ul class="list-unstyled manu-list">
+              <li><a href="#" class="hvr-grow-shadow">Home</a></li>
+              <li><a href="#" class="hvr-grow-shadow">About</a></li>
+              <li><a href="#" class="hvr-grow-shadow">FAQ</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Programming</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Web Design</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Logo Design</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Desktop App</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Web App</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Mobile App</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Database Admin</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Map</a></li>
+              <li><a href="#" class="hvr-grow-shadow">Contact</a></li>
+            </ul>
+            <ul class="list-unstyled social-list">
+              <li><img src="images/social/Facebook32.png" alt="Facebook" class="hvr-grow-shadow"></li>
+              <li><img src="images/social/Google_Plus32.png" alt="Google Plus" class="hvr-grow-shadow"></li>
+              <li><img src="images/social/linkedin32.png" alt="linkedin" class="hvr-grow-shadow"></li>
+              <li><img src="images/social/Pinterest32.png" alt="Pinterest" class="hvr-grow-shadow"></li>
+              <li><img src="images/social/twitter32.png" alt="twitter" class="hvr-grow-shadow"></li>
+              <li><img src="images/social/Rss32.png" alt="Rss" class="hvr-grow-shadow"></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h3>Latest Articles</h3>
+
+            <div class="media hvr-grow-shadow">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="images/article/article01.png" alt="article 01">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Programming</h4>
+                <p>This is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+              </div>
+            </div>
+
+            <div class="media hvr-grow-shadow">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="images/article/article02.png" alt="article 02">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Coding</h4>
+                <p>This is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+              </div>
+            </div>
+
+            <div class="media hvr-grow-shadow">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="images/article/article03.png" alt="article 03">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Web Desing</h4>
+                <p>This is Some Text About Programming Describe The Media Of Bootstrap 3.2.0</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+            <h3>Our Awesome Work</h3>
+            <img class="img-thumbnail hvr-grow-shadow" src="images/work/01.png" alt="work 1"/>
+            <img class="img-thumbnail hvr-grow-shadow" src="images/work/02.png" alt="work 2"/>
+            <img class="img-thumbnail hvr-grow-shadow" src="images/work/03.png" alt="work 3"/>
+            <img class="img-thumbnail hvr-grow-shadow" src="images/work/04.png" alt="work 4"/>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">Copyright &copy; 2020 <span>Shehata</span> Pro.</div>
+    </section>
+
+    <!-- End Section Footer -->
+
+
+    <!-- Start Section Loading-Overlay -->
+
+    <div class="loading-overlay">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div>
+
+    <!-- End Section Loading-Overlay -->
+
+    <!-- Start Scroll Top -->
+
+    <div id="scroll-top">
+      <i class="fa fa-chevron-up fa-3x"></i>
+    </div>
+
+    <!-- End Scroll Top -->
+
+
+
+  <script src='js/jquery-1.11.1.min.js'></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/plugins.js'></script>
+  <script src='js/wow.min.js'></script>
+  <script>new WOW().init();</script>
+  <script src='js/jquery.nicescroll.min.js'></script>
+
+</body>
+</html>

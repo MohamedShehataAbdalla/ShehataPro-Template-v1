@@ -1,0 +1,45 @@
+/* Start breadcrumd */
+
+.breadcrumd-heading { background-color: #f5f5f5; }
+
+.breadcrumd-heading .breadcrumb {margin-bottom: 0; font-size: 18px;}
+
+/* End breadcrumd */
+
+/* Start About-us Page */
+
+.about-us {  padding-top: 50px; }
+
+.about-us .h1 { padding-bottom: 10px;}
+
+.about-us hr { width: 80%;}
+
+.about-us  p {margin-bottom: 0;}
+
+.about-features { padding-top: 10px; padding-bottom: 50px; }
+
+.about-features .about-feat {margin-bottom: 20px;}
+
+.about-sco { padding-top: 50px; background-color: #f5f5f5; }
+
+.about-sco h2 {font-weight: 600;}
+
+.about-sco  p { line-height: 2em;}
+
+.about-sco a { background-color: #333; border-color: #333; margin-bottom: 10px;}
+
+/* End About-us Page */
+
+/* Start FAQ Page */
+
+.faq-heading .h1 { padding-bottom: 10px;}
+
+.faq-heading hr { width: 80%;}
+
+.faq-heading  p {margin-bottom: 0;}
+
+.faq-accordion .panel-heading a:after{ font-family: 'Glyphicons Halflings'; content:"\e114"; float: right; color: #444;}
+
+.faq-accordion .panel-heading a.collapsed:after{ content:"\e080"; color: #444;}
+
+/* End FAQ Page */
